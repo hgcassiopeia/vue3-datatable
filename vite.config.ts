@@ -8,8 +8,8 @@ export default defineConfig({
     build: {
         lib: {
             entry: {
-                'vue3-datatable': resolve(__dirname, 'src/components/index.ts'),
-                'vue3-datatable-css': resolve(__dirname, 'src/assets/css/tailwind.css'),
+                'custom-vue3-datatable': resolve(__dirname, 'src/components/index.ts'),
+                'custom-vue3-datatable-css': resolve(__dirname, 'src/assets/css/tailwind.css'),
             },
         },
         rollupOptions: {
